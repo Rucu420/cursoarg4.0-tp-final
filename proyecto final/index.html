@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" &amp;gt>
+  <title>Proyecto Final</title>
+  <!-- CSS BOOSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- CSS SECUNDARIO-->
+  <link rel="stylesheet" href="/proyecto final/styles.css">
+  
+  <style>
+    body {
+      background-color: black;
+      color: rgb(255, 255, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <!--MENU ENCABEZADO-->
+  <div>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav mx-auto">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#curriculum">Curriculum</a>                       
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!--SECCION INICIO-->
+  <section class="inicio">
+    <a name="inicio" id="inicio"></a>
+    <div class="contenido-banner">
+      <div class="contenedor-img">
+        <img src="https://randomuser.me/api/portraits/women/0.jpg" alt="no se puede cargar la imagen" width="200"
+          height="200">
+      </div>
+      <h1>MISS JANNIE NICHOLS</h1>
+      <h2> EST. AVANZADA DE LA LIC. EN PSICOLOGIA </h2>
+    </div>
+    <div class="container-fluid">
+      <div class="col-sobremi">
+        <h4>Sobre mi</h4>
+        <p id="demo"></p>
+          <button type="button" id="boton">informacion</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" >
+          <div class="infocontacto">
+            <h4>Contacto</h4>
+            <p>+2665323334</p>
+            <p>janni.nichols@webmail.com</p>
+            <p>5700 San Luis - Argentina</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="competencias">
+            <h4>Competencias</h4>
+            <p>Comunicación asertiva</p>
+            <p>Empatía</p>
+            <p>Trabajo en equipo</p>
+            <p>Creatividad</p>
+            <p>Planificación y organización</p>
+            <p>Compromiso</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="Referencias">
+            <h4>Referencias</h4>
+            <div class="contacto1">
+              <p>Cristina C. Retale</p>
+              <p>ccretale@ghjl.com</p>
+            </div>
+            <div class="contacto2">
+              <p>Emanuel Gonzalez Videla</p>
+              <p>ladfaa@ladda.com</p>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+    
+  </section>
+  <!--SECCION CURRICULUM-->
+  <!--ANCLA DE SECCION, para redireccionar a la seccion, (se usa <a>)-->
+  <a name="curriculum" id="curriculum"></a>
+    <section class="curriculum">
+      <h4>Curriculum</h4>
+       <div class="container">
+          <div class="row">
+            <div class="col" id=col-izquierda>
+              <div class="item-izq">
+               <div class="formacion">
+                <h2>Formación</h2>
+                <span class="casa"> Lic. en Psicologia</span>
+                <span class="fecha"> 2014 - actualidad</span>
+                <p>Univerdad Nacional de San Luis</p>
+               </div>
+              </div>
+              <div class="item-izq">
+               <div class="cursos">
+                <h2>Cursos</h2>
+                <span class="casa"> Estigmas asociados al padecimiento mental</span>
+                <span class="fecha">2022</span>
+                <p>Ciclo de actualización para profecionales de la salud mental</p>
+                <p>(acredita 54 horas)</p>
+               </div>
+              </div>
+              <div class="item-izq">
+                <div class="cursos">
+                 <span class="casa"> Primeros Auxilios</span>
+                 <span class="fecha"> 2021</span>
+                 <p>Ciclo informativo vitual</p>
+                </div>
+               </div>
+               <div class="item-izq">
+                <div class="cursos">
+                 <span class="casa"> Acompañante Terapéutico</span>
+                 <span class="fecha"> 2019</span>
+                 <p>Formación a distacia - Loopain</p>
+                 <p>(acredita 96 horas)</p>
+                </div>
+               </div>
+               <div class="item-izq">
+                <div class="cursos">
+                 <span class="casa"> Introducción a dispositivos de salud en situaciones de catástrofe y emergencia</span>
+                 <span class="fecha"> 2018</span>
+                 <p>Curso de extensión UNSL- PSF</p>                 
+                </div>
+               </div>
+               <div class="item-izq">
+                <div class="cursos">
+                 <span class="casa"> Estrategias de abordaje en salud del varón adolecnete</span>
+                 <span class="fecha"> 2017</span>
+                 <p>Programa Maternidad e Infancia</p>
+                 <p>(acredita 24 horas)</p>                 
+                </div>
+               </div>
+            </div>
+            <div class="col" id="col-derecha">
+              <div class="item-der">
+                <div class="experiencia-laboral">
+                 <h2>Experiencia Laboral</h2>
+                 <span class="casa"> Acompañamiento Terapéutico - Particular</span>
+                 <span class="fecha"> 2021 - 2022</span>
+                 <p>Estimulación a través del juego funcional y apoyo en adquisición de hábitos saludables.</p>                  
+                </div>
+               </div>
+               <div class="item-der">
+                <div class="experiencia-laboral">                 
+                 <span class="casa"> Asistencia en domicilio - Particular</span>
+                 <span class="fecha">2019 - 2020</span>
+                 <p>Asistencia en alimentación, higiene personal, acompañamiento familiar y contención.</p>                 
+                </div>
+               </div>
+               <div class="item-der">
+                 <div class="voluntariado">
+                  <h2>Voluntariado</h2>
+                  <span class="casa">Colaboradora en ONG "Psicologías sin Fronteras</span>
+                  <span class="fecha">2017-2018</span>
+                  <p>Diseño e implementación de ESI</p>
+                  <p>Organización y exposición en jornadas formación</p>
+                 </div>
+                </div>
+                <div class="item-der">
+                 <div class="practicasPS">
+                  <h2>Practicas PS</h2>                  
+                  <p>
+                     <li>Desarrolo de dispositivo vinculado a la integración escolar para docentes</li>
+                     <li>Observación participante en entrevistas de admisión (Hospital de Salud Mental)</li>
+                     <li>Observación participante en dispositivo "juego" (Hospital Salud Mental)</li>
+                     <li>Observación participante en dispositivo "habilidades sociales y lenguaje" (Hospital Salud Mental)</li>                    
+                  </p>                  
+                 </div>
+                </div>                
+            </div>
+          </div>
+       </div>
+
+    </section>
+  <!--SECCION CONTACTO-->
+  
+  <section class="contacto">
+    <a name="contacto" id="contacto"></a>
+    
+<div class="contenido-secccion">
+    <h2>Contacto</h2>
+    <!--Formulario-->
+  <div class="fila">
+     <div class="col">
+    <form id="miFormulario" action="" method="form">
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+    <input type="number" name="telefono" id="telefono" placeholder="Número Telefónico">
+    <input type="email" id="mail" name="email" placeholder="Dirección de correo">
+    <input type="text" name="tema" id="tema" placeholder="Tema">
+    <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+     <button>
+      Enviar mensaje
+      </button> 
+    </form>
+     </div>
+  </div>
+</div>
+  </section>
+
+    <!-- JS -->
+  <script src="/proyecto final/script.js"></script>
+</body>
+
+</html>
